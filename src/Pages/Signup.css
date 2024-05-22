@@ -1,0 +1,100 @@
+.sign img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.sig{
+    width: 28%;
+    height: 440px;
+    background-color: white;
+    box-shadow: 0px 0px 3px white;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    border-radius: 10px;
+}
+.sig .shea{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+}
+.sig .shea{
+    text-align: center;
+}
+.sig .butt{
+    width: 91%;
+    height: 45px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row;
+    border: 2px solid lightgray;
+    /* background-color: aqua; */
+}
+.sig .butt .button2{
+    width: 50%;
+    height: 25px;
+    padding:10px 0px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    outline: none;
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.sig .butt .button2:nth-child(even){
+    color: white;
+    background:linear-gradient(to right, blue, rgba(7, 7, 7, 0.411),blue);
+}
+/* .sig .butt .button2:hover{
+    cursor: pointer;
+    color: white;
+    background:linear-gradient(to right, blue, rgba(7, 7, 7, 0.411),blue);
+} */
+.sig form input{
+    width: 88%;
+    height: 45px;
+    outline: none;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    margin: 10px 1rem;
+    font-size: 17px;
+    padding-left: 0.5rem;
+    transition: all ease-in 0.4s;
+}
+.sig form input:focus{
+    border: 2px solid blue;
+}
+::placeholder{
+    font-size: 16px;
+    color: grey;
+    padding-left: 1rem;
+}
+.sig form a{
+    margin-left: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.sig form input[type=submit]{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    width: 92%;
+}
+.sig input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.822);
+}
+.sig form span{
+   margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 18px;
+}
+.sig form a:nth-child(even){
+    margin-left: 5px;
+}

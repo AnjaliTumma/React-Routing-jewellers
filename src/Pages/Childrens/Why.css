@@ -1,0 +1,110 @@
+.why img{
+    width: 100%;
+    height: 556px;
+    object-fit: cover;
+}
+.why h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 0px 0px 5px black;
+    font-size: 50px;
+}
+.whybox{
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top:30%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+   margin: 10px auto;
+    /* background-color: aliceblue; */
+}
+.whybox .wbox{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+}
+.whybox .wbox .wimg{
+    width: 20%;
+    height: 125px;
+    margin-top: 1rem;
+    /* background-color: blueviolet;  */
+}
+.whybox .wbox .wimg img{
+    width: 75%;
+    height: 85px;
+    border-radius: 10%;
+    object-fit: cover;
+    transition: all ease-in 0.8s;
+}
+.whybox .wbox .wimg img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.whybox .wbox .desc{
+    width: 70%;
+    height: 125px;
+    margin-top: 0rem;
+    /* background-color: brown; */
+}
+.whybox .wbox .desc h3{
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+}
+
+.whybox1{
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top:60%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+   margin: 10px auto;
+    /* background-color: aliceblue; */
+}
+.whybox1 .wbox1{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* background-color: aquamarine; */
+}
+.whybox1 .wbox1 .wimg1{
+    width: 20%;
+    height: 125px;
+    margin-top: 2rem;
+    /* background-color: blueviolet; */
+}
+.whybox1 .wbox1 .wimg1 img{
+    width: 75%;
+    height: 85px;
+    border-radius: 10%;
+    object-fit: cover;
+    transition: all ease-in 0.8s;
+}
+.whybox1 .wbox1 .wimg1 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.whybox1 .wbox1 .desc1{
+    width: 70%;
+    height: 125px;
+    margin-top: 0.5rem;
+    /* background-color: brown; */
+}
+.whybox1 .wbox1 .desc1 h3{
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+}

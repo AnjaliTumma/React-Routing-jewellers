@@ -1,0 +1,43 @@
+.about img{
+    width: 100%;
+    height: 557px;
+    object-fit: cover;
+}
+.abo{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+}
+.abo .abimg{
+    width: 50%;
+    height: 510px;
+    /* background-color: aqua;   */
+}
+.abo .abimg img{
+    width: 90%;
+    height:500px;
+    border-radius: 10px;
+    margin: 1rem 2rem;
+    object-fit: cover;
+}
+.abo .abimg h2{
+    font-size: 50px;
+    color:red;
+    margin-top: 5rem;
+    margin-bottom: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px black;
+}
+.abo .abimg p{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    justify-content: end;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 23px;
+}
